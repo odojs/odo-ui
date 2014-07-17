@@ -1,8 +1,4 @@
 # Odo frontend components
-These files and folders are hosted at `/odo` by the public backend plugin, which also hosts a local `/public` folder.
-
-## Auth
-The Auth component is an API for performing authentication and authorisation activities such as changing email address, resetting passwords and disconnecting authentication providers. This API may change in the future.
 
 ## Durandal
 The durandal folder provides several enhancements to the infrastructure provided by [durandal](http://durandaljs.com/).

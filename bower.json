@@ -1,0 +1,11 @@
+{
+  "name": "odo",
+  "description": "Odo, whatever you want it to be",
+  "version": "1.0.0",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tcoats/odo-ui.git"
+  },
+  "readmeFilename": "README.md"
+}

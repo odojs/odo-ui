@@ -2,7 +2,7 @@
 (function() {
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
-  define('odo/durandal/transitions/velocity', ['durandal/system', 'jquery', 'q', 'velocity'], function(system, $, Q) {
+  define('transitions/velocity', ['durandal/system', 'jquery', 'q', 'velocity'], function(system, $, Q) {
     var Velocity;
     return Velocity = (function() {
       function Velocity() {

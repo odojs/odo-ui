@@ -1,4 +1,4 @@
-define 'odo/durandal/transitions/velocity', ['durandal/system', 'jquery', 'q', 'velocity'], (system, $, Q) ->
+define 'transitions/velocity', ['durandal/system', 'jquery', 'q', 'velocity'], (system, $, Q) ->
 	class Velocity
 		animations:
 			slideInRight:

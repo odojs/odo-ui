@@ -1,4 +1,4 @@
-define 'odo/humanize', ['humanize', 'speakingurl'], (Humanize, speakingurl) ->
+define 'odo/humanize', ['speakingurl'], (speakingurl) ->
 	
 	Humanize.slug = speakingurl
 	

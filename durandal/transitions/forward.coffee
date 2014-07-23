@@ -1,4 +1,4 @@
-define 'transitions/forward', ['durandal/system', 'odo/durandal/transitions/velocity'], (system, Velocity) ->
+define 'transitions/forward', ['durandal/system', 'transitions/velocity'], (system, Velocity) ->
 	(context) ->
 		system.extend context, {
 			inAnimation: 'slideInRight'

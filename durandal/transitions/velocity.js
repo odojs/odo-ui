@@ -58,6 +58,7 @@
         var $previousView;
         $previousView = $(this.settings.activeView);
         $previousView.addClass('transition');
+        $previousView.css('display', 'none');
         return $previousView.velocity(this.animations[this.settings.outAnimation], 300, (function(_this) {
           return function() {
             $previousView.removeClass('transition');

@@ -33,6 +33,7 @@ define 'transitions/velocity', ['durandal/system', 'jquery', 'q', 'velocity'], (
 		outTransition: =>
 			$previousView = $ @settings.activeView
 			$previousView.addClass 'transition'
+			$previousView.css 'display', 'none'
 			$previousView.velocity(
 				@animations[@settings.outAnimation],
 				300,

@@ -3,8 +3,6 @@
 // There might be a better way of doing this.
 .actions {
 	padding-left: 0;
-	margin: 20px 0 0 0;
-	height: 0px;
 	overflow: visible;
 	text-align: center;
 	list-style: none;
@@ -23,6 +21,15 @@
 	.back {
 		float: left;
 		margin-right: 10px;
+	}
+	
+	&:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
 	}
 }
 
